@@ -1,0 +1,16 @@
+body{
+  font-family: 'PT Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(./component/covid-19\ bg.jpg);
+  background-position: center;
+  background-size: cover;
+}  
+
+.container{
+  margin:60px;
+  height: 215vh;
+  width:80vw;
+  border-radius: 20px;
+ 
+}
