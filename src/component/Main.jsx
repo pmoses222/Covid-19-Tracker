@@ -4,16 +4,14 @@ import { Chart as ChartJS, ArcElement, Tooltip } from 'chart.js';
 import { Doughnut } from 'react-chartjs-2';
 import Loading from './Loading';
 
-
-
-
 function Main({info ,isloading}) {
 
    function getmain(){
       if(isloading){
          return <Loading />
       }else{
-         return( <>
+         return( 
+         <>
             <MainContainer>
              <hi className="main-title">Coronavirus Updates in <br/> {info.countryName}</hi>
              <div className="main-cards">

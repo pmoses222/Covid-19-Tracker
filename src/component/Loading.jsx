@@ -7,8 +7,8 @@ function Loading() {
   return (  
     <LoadingContainer>
       <MutatingDots 
-       height="200"
-       width="200"
+       height="100"
+       width="100"
        color= "#FFE5B4"
        secondaryColor= "#FFE5B4"
        radius='12.5'
